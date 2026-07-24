@@ -1,6 +1,6 @@
 /**
  * @name CustomBadges
- * @author Custom
+ * @author Pythyy
  * @description Adds custom profile badges with full settings support for Kettu.
  * @version 1.1.0
 */
