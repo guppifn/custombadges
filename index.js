@@ -1,10 +1,3 @@
-/**
- * @name CustomBadges
- * @author Pythyy
- * @description Adds custom profile badges with full settings support for Kettu.
- * @version 1.1.0
-*/
-
 const { logger } = vendetta;
 const { findByName, findByProps } = vendetta.metro;
 const { React, ReactNative } = vendetta.metro.common;
@@ -13,7 +6,6 @@ const { storage } = vendetta.plugin;
 const { useProxy } = vendetta.storage;
 
 const { ScrollView, View, Text, TextInput, Image } = ReactNative;
-
 const DEFAULT_BADGES = [
   {
     key: "6a630b5e30911b68ed77fec1",
@@ -130,7 +122,7 @@ function installPatches() {
   return [...renderPatches, badgePatch];
 }
 
-export default {
+module.exports = {
   onLoad() {
     try {
       storage.overrides ??= {};
