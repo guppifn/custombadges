@@ -1,0 +1,7 @@
+{
+  "name": "Custom Badges",
+  "description": "Adds custom profile badges",
+  "authors": [{ "name": "Pythyy" }],
+  "version": "1.0.0",
+  "main": "index.js"
+}
