@@ -1,7 +1,10 @@
 {
   "name": "Custom Badges",
-  "description": "Adds custom profile badges",
-  "authors": [{ "name": "Pythyy" }],
-  "version": "1.0.0",
+  "description": "Adds custom badges to Discord profiles.",
+  "authors": [
+    {
+      "name": "guppifn"
+    }
+  ],
   "main": "index.js"
 }
